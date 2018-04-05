@@ -16,11 +16,11 @@ was_sim(R, S, des, des_pars, pre, pre_pars, tar, tar_pars, B, est_var = FALSE,
 
 \item{des_pars}{A list containing the parameters for the sampling designs in \code{des}.}
 
-\item{pre}{A list containing the predictive tools for each step.}
+\item{pre}{A list containing the predictive tools to compare.}
 
 \item{pre_pars}{A list containing the parameters for the predictive tools in \code{pre}.}
 
-\item{tar}{A list containing the targeting functions for each step.}
+\item{tar}{A list containing the targeting functions for each step/to compare?.}
 
 \item{tar_pars}{A list containing the parameters for the targeting functions in \code{tar}.}
 

@@ -4,9 +4,9 @@
 #' @param S The number of steps.
 #' @param des A list containing the sampling designs for each step.
 #' @param des_pars A list containing the parameters for the sampling designs in \code{des}.
-#' @param pre A list containing the predictive tools for each step.
+#' @param pre A list containing the predictive tools to compare.
 #' @param pre_pars A list containing the parameters for the predictive tools in \code{pre}.
-#' @param tar A list containing the targeting functions for each step.
+#' @param tar A list containing the targeting functions for each step/to compare?.
 #' @param tar_pars A list containing the parameters for the targeting functions in \code{tar}.
 #' @param B The number of Bootstrap runs to estimate the inclusion probabilities.
 #' @param est_var Should the variance be also estimated via bootstrapped second order inclusion probabilities? Defaults to FALSE.

@@ -1,11 +1,14 @@
 Package: wasim
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Toolbox for simulations under Wave Adaptive Sampling
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: person("Federico", "Andreis", email = "federico.andreis@stir.ac.uk",
+  role = c("aut", "cre"))
+Description: Contains the fundamental functions to run simulations under WAS.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports:
+    HotDeckImputation
+URL: https://github.com/federicoandreis/wasim    
+RoxygenNote: 6.0.1

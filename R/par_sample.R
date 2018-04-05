@@ -1,5 +1,14 @@
-# Pareto Sampling
-#
+#' Extracts a Pareto sample.
+#'
+#' @param lambda An \code{N}-vector of inclusion probabilities summing to \code{n}.
+#' @return A Pareto sample of size \code{n} from a population of size \code{N}.
+#' @examples
+#' N <- 100
+#' n <- 10
+#' set.seed(42)
+#' x <- runif(N)
+#' pik <- n*x/sum(x)
+#' par_sample(pik)
 
 par_sample <- function(lambda) {
 
